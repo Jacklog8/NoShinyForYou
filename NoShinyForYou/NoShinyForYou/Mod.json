@@ -1,0 +1,12 @@
+{
+    "Id": "NoShinyForYou",
+    "DisplayName": "No Shiny For You",
+    "Author": "Cookie",
+    "Version": "1.0",
+    "Dependencies": [],
+    "LoadBefore": [],
+    "LoadAfter": [],
+    "Enable": true,
+    "Game": "BelowZero",
+    "AssemblyName": "NoShinyForYou.dll"
+}
