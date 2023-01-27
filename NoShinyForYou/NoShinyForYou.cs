@@ -33,4 +33,14 @@ namespace NoShinyForYou
             __result = 0f;
         }
     }
-}
+    
+    
+    [HarmonyPatch(typeof(SeaMonkeyBringGift)]
+    [HarmonyPatch(nameof(SeaMonkeyBringGift.Evaluate))]
+    class Gift_Evaluate_Patch
+    {
+        public static void Postfix(ref float __result)
+        {
+            __result = 0f;
+        }
+    }
