@@ -44,3 +44,4 @@ namespace NoShinyForYou
             __result = 0f;
         }
     }
+}
